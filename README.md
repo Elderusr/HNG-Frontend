@@ -40,10 +40,6 @@ This project does not require any specific environment variables to run.
 | **Font Awesome**   | Provides scalable vector icons for social media links.                      |
 | **Google Fonts**   | Utilized for 'Roboto Mono' and 'Inter' fonts to enhance typography.        |
 
-## Author Info
-- **John Doe**:
-    - [Twitter](https://twitter.com/johndoe)
-    - [LinkedIn](https://linkedin.com/in/johndoe)
 
 ## Badges
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)

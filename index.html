@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/7d12dbc7b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="avatar-section">
+        <figure data-testid="test-user-avatar" aria-label="User Image">
+          <img src="img/avatar.jpeg" alt="L Avatar" />
+          <figcaption>Mr L - Detective</figcaption>
+        </figure>
+        <div class="about-user">
+          <h2 data-testid="test-user-name" aria-label="User Name">L</h2>
+          <p data-testid="test-user-bio" aria-label="User Bio">
+            I&#39;m L, the world&#39;s greatest detective or so they say. I
+            prefer to work in the shadows, away from public attention, where
+            logic and truth can breathe without interference.
+          </p>
+
+          <ul
+            data-testid="test-user-social-links"
+            aria-label="User Social Media Links"
+            class="social-links"
+          >
+            <li data-testid="test-user-social-facebook">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-twitter user-icons"></i>
+              </a>
+            </li>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-square-facebook user-icons"></i>
+            </a>
+            <li data-testid="test-user-social-twitter"></li>
+            <li data-testid="test-user-social-linkedin">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin user-icons"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="sections">
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies" aria-label="User Hobbies">
+            <li class="l-one">Solving puzzles and criminal cases</li>
+            <li class="l-two">Eating sweets and desserts (especially cake, candy, and strawberries)</li>
+            <li class="l-three">Observing people and analyzing their behavior</li>
+            <li class="l-four">Playing tennis and chess as mental exercise</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes" aria-label="User Dislikes">
+            <li class="l-five">Losing or being proven wrong</li>
+            <li class="l-six">Being touched or interrupted while thinking</li>
+            <li class="l-seven">Dishonesty and moral hypocrisy</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="fun-fact">
+        <div class="fun-fact-header">
+          <i class="fa-solid fa-lightbulb fun-fact-icon"></i>
+          <h4>Fun fact</h4>
+        </div>
+        <p>
+          It's exactly
+          <span data-testid="test-user-time" id="clock"></span> milliseconds
+          since 1970! Crazy, right?
+        </p>
+      </div>
+    </article>
+    <script src="index.js"></script>
+  </body>
+</html>

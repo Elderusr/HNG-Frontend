@@ -17,7 +17,7 @@ To get a local copy up and running, follow these simple steps:
 
 -   **Clone the Repository**:
     ```bash
-    git clone git@github.com:Elderusr/HNG-Frontend.git
+    git clone https://github.com/Elderusr/HNG-Frontend.git
     ```
 -   **Navigate to the Project Directory**:
     ```bash
